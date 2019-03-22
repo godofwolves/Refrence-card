@@ -1,0 +1,69 @@
+.info {
+	height: 82.5%;
+	width: 100%;
+	display: block;
+	background-color: #ff0000;
+}
+
+.container {
+	height: calc(100%/3);
+	width: 100%;
+	display: flex;
+	background-color: #00cc00;
+}
+
+.box {
+	height: 100%;
+	width: 50%;
+	display: block;
+	background-color: #663300;
+}
+
+.pic {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	background-color: #0099cc;
+}
+
+.text {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	background-color: #66ff99;
+}
+
+.top {
+	height: 17.5%;
+	width: 100%;
+	display: block;
+	background-color: #000066;
+}
+
+.header {
+	height: 42%;
+	width: 100%;
+	display: flex;
+	background-color: #999999;
+}
+
+.menu {
+	height: 58%;
+	width: 100%;
+	display: block;
+	background-color: #cc99ff;
+}
+
+.row {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	background-color: #cc9900;
+}
+
+.item {
+	height: 100%;
+	width: 20%;
+	display: flex;
+	background-color: #ffff00;
+}
