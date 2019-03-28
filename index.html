@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 <body>
+    <audio id="alive"><source src="alive.mp3"></audio>
 	<div class="top">
 		<div class="menu">
 			<div class="row a">
@@ -22,34 +23,32 @@
 				<div class="item j"></div>
 			</div>
 		</div>
-		<div class="header"></div>
+		<div class="header"> <button type="button" onclick="document.getElementById('alive').play()"> Click Me!</button></div>
 	</div>
 	<div class="info">
 			<div class="container a">
 				<div class="box a">
 					<div class="pic a">
+                        <img src="images/pulse.PNG" class="size">
 					</div>
 				</div>
 				<div class="box b">
-					<div class="text b"></div>
+					<div class="text b"><center><p style="font-size:14px;">If someone suddenly collapses infront of you treat the situation like cardiac arrest. preform standar CPR for cases of suspected drowning, drug oferdose and collapses in children<br> CALL 911 if yet to do so</p></center></div>
 				</div>
 			</div>
-			<div class="container b">
-				<div class="box c">
-					<div class="pic c"></div>
-				</div>
-				<div class="box d">
-					<div class="text d"></div>
-				</div>
+			<div class="container content b">
+                <center><p style="font-size:14px;">Position the victim on the floor on his or her back. Place the heel of one hand on the center of the chest (usually between the nipples) with the other hand on top. Compress forcefully 1.5 to 2 inches, at a rate of at least 100BPM (click the button for relevent song)</p></center>
 			</div>
 			<div class="container c">
 				<div class="box e">
-					<div class="pic e"></div>
+					<div class="pic e">
+                        <img src="Images/compression.PNG" class="size">
+                    </div>
 				</div>
 				<div class="box f">
-					<div class="text f"></div>
+					<div class="text f"><center><p style="font-size:14px;">Lift your hands slightly with each push, allowing the chest to recoil. This helps blood to move around and draws in a little bit of air</p></center></div>
 				</div>
 			</div>
 		</div>
+    	<script src="script.js"></script>
 </body>
-		<script src="script.js"></script></html>

@@ -1,69 +1,90 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: block;
+}
 .info {
 	height: 82.5%;
 	width: 100%;
 	display: block;
-	background-color: #ff0000;
+    margin: 0;
+
 }
 
 .container {
 	height: calc(100%/3);
 	width: 100%;
 	display: flex;
-	background-color: #00cc00;
-}
 
+}
+.content {
+    align-items: center;
+	justify-content: center;
+}
 .box {
 	height: 100%;
 	width: 50%;
 	display: block;
-	background-color: #663300;
+    p{
+        font-size: 1px
+    }
 }
-
+.size {
+	max-height: 90%;
+	max-width: 90%;
+}
 .pic {
 	height: 100%;
 	width: 100%;
 	display: flex;
-	background-color: #0099cc;
+    align-items: center;
+	justify-content: center;
 }
 
 .text {
 	height: 100%;
 	width: 100%;
 	display: flex;
-	background-color: #66ff99;
+    align-items: center;
+	justify-content: center;
+
 }
 
 .top {
 	height: 17.5%;
 	width: 100%;
 	display: block;
-	background-color: #000066;
+    background-color: aqua
 }
 
 .header {
 	height: 42%;
 	width: 100%;
 	display: flex;
-	background-color: #999999;
+    align-items: center;
+	justify-content: center;
+
 }
 
 .menu {
 	height: 58%;
 	width: 100%;
 	display: block;
-	background-color: #cc99ff;
+
 }
 
 .row {
 	height: 50%;
 	width: 100%;
 	display: flex;
-	background-color: #cc9900;
+
 }
 
 .item {
 	height: 100%;
 	width: 20%;
 	display: flex;
-	background-color: #ffff00;
+
 }
+
