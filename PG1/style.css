@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	display: block;
 }
-p {
+.con {
   font-size: 5vw;
 }
 
@@ -15,6 +15,7 @@ p {
 	width: 100%;
 	display: block;
     margin: 0;
+
 
 }
 
@@ -27,6 +28,7 @@ p {
 .content {
     align-items: center;
 	justify-content: center;
+        background-color: red;
 }
 .box {
 	height: 100%;
@@ -43,6 +45,7 @@ p {
 	display: flex;
     align-items: center;
 	justify-content: center;
+
 }
 
 .text {
@@ -51,6 +54,7 @@ p {
 	display: flex;
     align-items: center;
 	justify-content: center;
+        background-color: red;
 
 }
 
@@ -92,7 +96,7 @@ p {
 }
 
 @media screen and (min-width: 800px) {
-    p {
+    .con {
     font-size: 40px;
     }
 }
