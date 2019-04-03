@@ -4,6 +4,12 @@ body {
 	margin: 0;
 	display: block;
 }
+p {
+  font-size: 4vw;
+}
+
+
+
 .info {
 	height: 82.5%;
 	width: 100%;
@@ -88,3 +94,8 @@ body {
 
 }
 
+@media screen and (min-width: 800px) {
+    p {
+    font-size: 32px;
+    }
+}
