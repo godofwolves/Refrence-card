@@ -5,7 +5,7 @@ body {
 	display: block;
 }
 p {
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 
@@ -32,13 +32,10 @@ p {
 	height: 100%;
 	width: 50%;
 	display: block;
-    p{
-        font-size: 1px
-    }
 }
 .size {
-	max-height: 90%;
-	max-width: 90%;
+	max-height: 95%;
+	max-width: 95%;
 }
 .pic {
 	height: 100%;
@@ -96,6 +93,6 @@ p {
 
 @media screen and (min-width: 800px) {
     p {
-    font-size: 32px;
+    font-size: 40px;
     }
 }
