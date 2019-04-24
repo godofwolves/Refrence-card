@@ -6,6 +6,7 @@ body {
 }
 .con {
   font-size: 5vw;
+    font-weight: bold
 }
 
 
@@ -28,7 +29,6 @@ body {
 .content {
     align-items: center;
 	justify-content: center;
-        background-color: red;
 }
 .box {
 	height: 100%;
@@ -54,7 +54,7 @@ body {
 	display: flex;
     align-items: center;
 	justify-content: center;
-        background-color: red;
+        
 
 }
 
@@ -62,7 +62,7 @@ body {
 	height: 17.5%;
 	width: 100%;
 	display: block;
-    background-color: aqua
+    background-color: red;
 }
 
 .header {
@@ -98,5 +98,6 @@ body {
 @media screen and (min-width: 800px) {
     .con {
     font-size: 40px;
+    font-weight: bold;
     }
 }
